@@ -160,6 +160,7 @@
             this.btn_accept.TabIndex = 13;
             this.btn_accept.Text = "确定";
             this.btn_accept.UseVisualStyleBackColor = true;
+            this.btn_accept.Click += new System.EventHandler(this.btn_accept_Click);
             // 
             // btn_clear
             // 
@@ -169,6 +170,7 @@
             this.btn_clear.TabIndex = 14;
             this.btn_clear.Text = "清空";
             this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
             // btn_cancel
             // 
