@@ -29,41 +29,42 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.信息导入ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.信息查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.InfoImportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.InfoSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.QuickToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.信息导入ToolStripMenuItem,
-            this.信息查询ToolStripMenuItem,
-            this.退出ToolStripMenuItem});
+            this.InfoImportToolStripMenuItem,
+            this.InfoSearchToolStripMenuItem,
+            this.QuickToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(759, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // 信息导入ToolStripMenuItem
+            // InfoImportToolStripMenuItem
             // 
-            this.信息导入ToolStripMenuItem.Name = "信息导入ToolStripMenuItem";
-            this.信息导入ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.信息导入ToolStripMenuItem.Text = "信息录入";
+            this.InfoImportToolStripMenuItem.Name = "InfoImportToolStripMenuItem";
+            this.InfoImportToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.InfoImportToolStripMenuItem.Text = "信息录入";
+            this.InfoImportToolStripMenuItem.Click += new System.EventHandler(this.InfoImportToolStripMenuItem_Click);
             // 
-            // 信息查询ToolStripMenuItem
+            // InfoSearchToolStripMenuItem
             // 
-            this.信息查询ToolStripMenuItem.Name = "信息查询ToolStripMenuItem";
-            this.信息查询ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.信息查询ToolStripMenuItem.Text = "信息查询";
+            this.InfoSearchToolStripMenuItem.Name = "InfoSearchToolStripMenuItem";
+            this.InfoSearchToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.InfoSearchToolStripMenuItem.Text = "信息查询";
             // 
-            // 退出ToolStripMenuItem
+            // QuickToolStripMenuItem
             // 
-            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
-            this.退出ToolStripMenuItem.Text = "退出";
+            this.QuickToolStripMenuItem.Name = "QuickToolStripMenuItem";
+            this.QuickToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.QuickToolStripMenuItem.Text = "退出";
             // 
             // frmMain
             // 
@@ -88,9 +89,9 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem 信息导入ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 信息查询ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem InfoImportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem InfoSearchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem QuickToolStripMenuItem;
     }
 }
 

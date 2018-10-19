@@ -16,5 +16,12 @@ namespace ComputerManageSystem
         {
             InitializeComponent();
         }
+
+        private void InfoImportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Child child = new Child();
+            child.MdiParent = this; //指定窗口父窗体
+            child.Show();
+        }
     }
 }
